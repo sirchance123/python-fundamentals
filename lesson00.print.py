@@ -1,0 +1,1 @@
+print("skibidi 67bau" * 10000)
