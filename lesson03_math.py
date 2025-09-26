@@ -30,3 +30,25 @@ result4 = 10 - 2 + 3
 print("Result 4: ", result4)
 result5 = 5 + 2 ** 3 * (4 - 1)
 print("Result 5: ", result5)
+
+
+
+#CHALLENGES
+ #1.) ######
+area =  8 * 5
+print("Rectangle Area: ", area)
+
+
+circle_area = 3.14 * 7 ** 2
+print("Circle Area: ", circle_area)
+
+
+
+shopping_total = 12.99 * 3 + 3.5 * 4
+print("Shopping Total: ", shopping_total)
+
+
+the_anything = 6 % 7
+print("ANYTHING: ", the_anything)
+#we straight up couldnt get it yo
+
