@@ -6,4 +6,9 @@ print(math.floor(4.8))
 print(math.pow(2, 5))
 print(math.pi)
 
+#Psuedorandom number generator.  start with a random number. that number = seed
+random = math.pi
 
+psuedo = 718302
+part1 = psuedo - random
+part2
