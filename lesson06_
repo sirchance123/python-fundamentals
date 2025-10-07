@@ -1,0 +1,27 @@
+greeting = "Hello"
+name = "skibidi"
+print(greeting, name)
+
+# 0 1 2 3 4 
+# H e l l o
+second_letter = greeting[1]
+print(second_letter)
+
+message = greeting + " " + name + "!!!!"
+print("Concatenated message:", message)
+word = "Super-cali-fragil-istic-expi-ali-docious"
+print("First letter:", word[0])
+print("Last letter:", word[-1])
+print("Range of letters (non-inclusive):", word[6:17])
+print(word[:5])
+print("Last seven letters:", word[:-7])
+print("Step through every second character:", word[::2])
+print("Reversed, stepping every third letter:", word[::-3])
+
+country = "Canadaandadnadnadandadnadandadnadadnadadnadadnadadnadnanadaanadadnadadnadadnadadndadnaanadandadnadananadnanaanadnaanadnaanadnaand"
+length_of_word = len(country)
+print(length_of_word)
+phrase = "sP0ng13D006"
+print(phrase.upper())
+print(phrase.capitalize())
+print(phrase.lower())
