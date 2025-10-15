@@ -54,3 +54,44 @@ else:
 
 if day is not "Monday":
     print("Its not monday")
+
+#challenge uno
+
+a = int(input("Enter a number : "))
+
+b = a%2
+if a == 0 :
+    print(f"This...{a} is an even Number")
+else:
+    print(f"This...{a} is an odd number.")
+
+#challenge dos, password check
+password = "SIX SEVEN"
+
+attemptpassword = input("Enter Password (hint, its tuff) : ")
+
+if attemptpassword == password :
+    print("Acess...Granted")
+else:
+    print("Acess...Denied")
+
+
+
+#challenge 3
+
+grade = int(input("Enter a numerical Grade : "))
+
+if grade >= 90 :
+    print("You got an A...sweat")
+elif grade >= 80 :
+    print("You got a B...")
+elif grade >= 70 : 
+    print("You got a C..you suck lowkey")
+elif grade >= 60 :
+    print("You got a D...you pretty bad")
+elif grade >= 50 :
+    print("You got an F...dang brody you selling fr")
+elif grade <= 10 :
+    print("You suck butt")
+
+
