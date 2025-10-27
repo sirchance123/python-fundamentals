@@ -51,6 +51,6 @@ increment = 1
 
 while count > 0:
     count += increment
-    increment += 100000
+    increment *= 100000000000000000000000000000000000000000000000000000
 
     print(count)
